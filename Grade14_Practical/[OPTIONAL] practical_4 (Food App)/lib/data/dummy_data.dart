@@ -3,13 +3,12 @@ import 'package:practical_2/model/dish_model.dart';
 import 'package:practical_2/model/restaurant_model.dart';
 
 List<RestaurantModel> dummyRestaurant = [
-
   RestaurantModel(
     id: 1,
     title: "The Gourmet Kitchen",
     subtitle: "Italian • Pasta • Salads • \$2.99 delivery",
     deliveryTime: "25-35 min",
-    country: "Italy",
+    country: "Italian",
     imgPath: "assets/restaurants/1.png",
     rate: 4.5,
     dishes: [
@@ -41,7 +40,7 @@ List<RestaurantModel> dummyRestaurant = [
     title: "Sushi Central",
     subtitle: "Japanese • Sushi • Rolls • Free delivery",
     deliveryTime: "30-40 min",
-    country: "Japan",
+    country: "Japanese",
     imgPath: "assets/restaurants/2.png",
     rate: 4.8,
     dishes: [
@@ -73,7 +72,7 @@ List<RestaurantModel> dummyRestaurant = [
     title: "Burger Bliss",
     subtitle: "American • Burgers • Fries • \$1.99 delivery",
     deliveryTime: "20-30 min",
-    country: "USA",
+    country: "American",
     imgPath: "assets/restaurants/3.png",
     rate: 4.6,
     dishes: [
@@ -100,7 +99,6 @@ List<RestaurantModel> dummyRestaurant = [
       ),
     ],
   ),
-
 ];
 
 List<List<dynamic>> foodTypes = [
@@ -111,7 +109,7 @@ List<List<dynamic>> foodTypes = [
 ];
 
 List<String> categories = [
-  "Appetzers",
+  "Appetizers",
   "Pizza",
   "Pasta",
   "Dessert",

@@ -18,7 +18,7 @@ class CustomRestaurantCard extends StatelessWidget{
     return Column(
       children: [
         InkWell(
-          onTap: () => Navigator.pushNamed(context, '/details'),
+          onTap: () => Navigator.pushNamed(context, '/details', arguments: restaurant),
           child: Stack(
             children: [
               Container(

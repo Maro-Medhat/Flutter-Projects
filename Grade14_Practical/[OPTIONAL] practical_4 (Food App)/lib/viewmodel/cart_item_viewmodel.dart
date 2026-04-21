@@ -25,6 +25,8 @@ class CartItemViewmodel extends ChangeNotifier{
     else{
       _items.add(CartItemModel(dish: dish));
     }
+
+    notifyListeners();
   }
 
   void increment(DishModel dish){
@@ -34,6 +36,8 @@ class CartItemViewmodel extends ChangeNotifier{
     if(index != -1){
       _items[index].quntity++;
     }
+
+    notifyListeners();
   }
 
   void decrement(DishModel dish){
@@ -51,6 +55,8 @@ class CartItemViewmodel extends ChangeNotifier{
         _items.removeAt(index);
       }
     }
+
+    notifyListeners();
   }
 
   double get totalPrice {

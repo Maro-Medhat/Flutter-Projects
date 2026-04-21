@@ -11,4 +11,6 @@ class AppColors {
   static Color textSecondry = Color(0xFF87796d);
 
   static Color background = Color(0xFFF8F9F4);
+
+  static Color btnBackground = Color(0xFF0F1629);
 }
