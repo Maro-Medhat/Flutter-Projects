@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/data/dummy_data.dart';
-import 'package:practical_2/theme/app_colors.dart';
-import 'package:practical_2/widgets/custom_restaurant_card.dart';
+import 'package:practical_4/data/dummy_data.dart';
+import 'package:practical_4/theme/app_colors.dart';
+import 'package:practical_4/widgets/custom_restaurant_card.dart';
 
 class HomeScreen extends StatelessWidget{
   

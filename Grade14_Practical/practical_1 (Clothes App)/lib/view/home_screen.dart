@@ -152,6 +152,49 @@ class HomeScreen extends StatelessWidget{
           ),
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: AppColors.background,
+
+        currentIndex: 1,
+        selectedItemColor: AppColors.primary,
+
+        unselectedItemColor: AppColors.textSecondary,
+        unselectedLabelStyle: TextStyle(
+          color: AppColors.textSecondary,
+        ),
+
+        type: BottomNavigationBarType.fixed,
+
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home
+            ),
+            label: "Home",
+          ),
+
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.grid_view_sharp
+            ),
+            label: "Categories",
+          ),
+
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.favorite
+            ),
+            label: "Whishlist",
+          ),
+
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.person
+            ),
+            label: "Profile",
+          ),
+        ]
+      ),
     );
   }
 }

@@ -1,4 +1,4 @@
-import 'package:practical_2/model/dish_model.dart';
+import 'package:practical_4/model/dish_model.dart';
 
 class RestaurantModel {
   final int id;

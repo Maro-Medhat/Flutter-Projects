@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/theme/app_colors.dart';
-import 'package:practical_2/viewmodel/cart_item_viewmodel.dart';
+import 'package:practical_4/theme/app_colors.dart';
+import 'package:practical_4/viewmodel/cart_item_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 class CartScreen extends StatelessWidget {

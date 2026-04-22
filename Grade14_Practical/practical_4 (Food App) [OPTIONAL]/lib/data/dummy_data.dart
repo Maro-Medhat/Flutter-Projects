@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/model/dish_model.dart';
-import 'package:practical_2/model/restaurant_model.dart';
+import 'package:practical_4/model/dish_model.dart';
+import 'package:practical_4/model/restaurant_model.dart';
 
 List<RestaurantModel> dummyRestaurant = [
   RestaurantModel(

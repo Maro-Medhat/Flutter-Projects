@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/model/cart_item_model.dart';
-import 'package:practical_2/model/dish_model.dart';
+import 'package:practical_4/model/cart_item_model.dart';
+import 'package:practical_4/model/dish_model.dart';
 
 class CartItemViewmodel extends ChangeNotifier{
   List<CartItemModel> _items = [];

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/view/cart_screen.dart';
-import 'package:practical_2/view/details_screen.dart';
-import 'package:practical_2/view/home_screen.dart';
-import 'package:practical_2/viewmodel/cart_item_viewmodel.dart';
+import 'package:practical_4/view/cart_screen.dart';
+import 'package:practical_4/view/details_screen.dart';
+import 'package:practical_4/view/home_screen.dart';
+import 'package:practical_4/viewmodel/cart_item_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 void main() {
